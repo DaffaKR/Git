@@ -3,9 +3,9 @@ from math_function import add, div, mul
 
 def main():
 
-    data_1 = int(input("masukkan input 1 :"))
-    data_2 = int(input("masukkan input 2 :"))
-    operator = input("masukkan operator :")
+    data_1 = int(input("masukkan input 1 : "))
+    data_2 = int(input("masukkan input 2 : "))
+    operator = input("masukkan operator : ")
 
     if operator == "+":
         result = add(data_1, data_2)
